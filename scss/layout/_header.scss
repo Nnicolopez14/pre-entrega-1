@@ -7,46 +7,46 @@
         height: 3.125rem;
         width: 9.375rem;
     }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $color-terciario;
+        padding: 1rem 1.5rem;
+        border-radius: 40px;
+        .navbar{
+            display: flex;
+            gap: 1.25rem;
+            list-style: none;
+            li:hover{
+                transform: scale(1.1);
+            }
+            li a{
+                text-decoration: none;
+                font-size: 1.25rem;
+                color: $color-letra;
+                font-weight: 800;
+                gap: 1.25rem;
+            }
+        }
+        & #toggle, & label{
+            display: none;
+        }
+    }
     .btn button{
         font-weight: 700;
-        color: #c7c8cc;
+        color: $color-terciario;
         padding: 9px 25px;
-        background: #B4B4B8;
+        background: $color-principal;
         border: none;
         border-radius: 50px;
         &:hover{
-            background-color: #f2efe5;
-            color: #B4B4B8;
+            background-color: $color-secundario;
+            color: $color-principal;
             transform: scale(1.1);
         }
     }
 
 }
 
-nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #c7c8cc;
-    padding: 1rem 1.5rem;
-    border-radius: 40px;
-    .navbar{
-        display: flex;
-        gap: 1.25rem;
-        list-style: none;
-    }
-    .navbar li:hover{
-        transform: scale(1.1);
-    }
-    .navbar li a{
-        text-decoration: none;
-        font-size: 1.25rem;
-        color: black;
-        font-weight: 800;
-        gap: 1.25rem;
-    }
-    & #toggle, & label{
-        display: none;
-    }
-}

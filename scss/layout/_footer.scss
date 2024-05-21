@@ -1,24 +1,22 @@
 footer{
-    background-color: #f2efe5;
-    color: black;
+    background-color: $color-principal;
+    color: $color-letra;
     display: flex;
     flex-direction: row;
     align-items: center;
-    div{
+    .iconos{
         display: flex;
         flex-direction: row;
         list-style: none;
         align-items: center;
-    }
-    .iconos{
         margin: 15px 0;
-    }
-    .iconos i{
-        border-radius: 50%;
-        padding: 15px;
-        cursor: pointer;
-        margin: 0 10px;
-        transition: 0.3s ease;
-        box-shadow: 0 2px 5px #b4b4b8;
+        i{
+            border-radius: 50%;
+            padding: 15px;
+            cursor: pointer;
+            margin: 0 10px;
+            transition: 0.3s ease;
+            box-shadow: 0 2px 5px $color-principal;
+        }
     }
 }

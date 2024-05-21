@@ -11,6 +11,28 @@
   .header .logo img {
     height: 3.125rem;
     width: 9.375rem; }
+  .header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c7c8cc;
+    padding: 1rem 1.5rem;
+    border-radius: 40px; }
+    .header nav .navbar {
+      display: flex;
+      gap: 1.25rem;
+      list-style: none; }
+      .header nav .navbar li:hover {
+        transform: scale(1.1); }
+      .header nav .navbar li a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: black;
+        font-weight: 800;
+        gap: 1.25rem; }
+    .header nav #toggle, .header nav label {
+      display: none; }
   .header .btn button {
     font-weight: 700;
     color: #c7c8cc;
@@ -23,54 +45,31 @@
       color: #B4B4B8;
       transform: scale(1.1); }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #c7c8cc;
-  padding: 1rem 1.5rem;
-  border-radius: 40px; }
-  nav .navbar {
-    display: flex;
-    gap: 1.25rem;
-    list-style: none; }
-  nav .navbar li:hover {
-    transform: scale(1.1); }
-  nav .navbar li a {
-    text-decoration: none;
-    font-size: 1.25rem;
-    color: black;
-    font-weight: 800;
-    gap: 1.25rem; }
-  nav #toggle, nav label {
-    display: none; }
-
 footer {
-  background-color: #f2efe5;
+  background-color: #B4B4B8;
   color: black;
   display: flex;
   flex-direction: row;
   align-items: center; }
-  footer div {
+  footer .iconos {
     display: flex;
     flex-direction: row;
     list-style: none;
-    align-items: center; }
-  footer .iconos {
+    align-items: center;
     margin: 15px 0; }
-  footer .iconos i {
-    border-radius: 50%;
-    padding: 15px;
-    cursor: pointer;
-    margin: 0 10px;
-    transition: 0.3s ease;
-    box-shadow: 0 2px 5px #b4b4b8; }
+    footer .iconos i {
+      border-radius: 50%;
+      padding: 15px;
+      cursor: pointer;
+      margin: 0 10px;
+      transition: 0.3s ease;
+      box-shadow: 0 2px 5px #B4B4B8; }
 
 .formu {
   display: flex;
   gap: 1.25rem;
-  align-items: center; }
+  align-items: center;
+  background-color: #f2efe5; }
   .formu .container-form {
     height: 28.125rem;
     max-width: 50rem;
@@ -182,6 +181,137 @@ footer {
       margin: 15px 0;
       color: black;
       font-size: 16px; }
-  .formu .foto-nike2 {
-    height: 800px;
-    width: 100%; }
+  .formu .imagen-sumate {
+    width: 800px;
+    height: 800px; }
+    .formu .imagen-sumate .foto-nike2 {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+
+.main-index {
+  background-color: #f2efe5; }
+  .main-index hr {
+    height: 20px;
+    background-color: #f2efe5; }
+  .main-index .section-dos h3 {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .main-index .section-dos .galeria {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 15.625rem);
+    gap: .625rem; }
+    .main-index .section-dos .galeria img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-color: #B4B4B8; }
+    .main-index .section-dos .galeria .img1 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3; }
+    .main-index .section-dos .galeria .img2 {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 4; }
+    .main-index .section-dos .galeria .img3 {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 2; }
+    .main-index .section-dos .galeria .img4 {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4; }
+    .main-index .section-dos .galeria .img5 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4; }
+    .main-index .section-dos .galeria .img6 {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2; }
+
+main section {
+  width: 100%;
+  height: 800px; }
+  main section .foto-nike {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+main .video-youtube {
+  width: 100%;
+  height: 500px; }
+  main .video-youtube .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+main {
+  background-color: #f2efe5; }
+  main h1 {
+    font-weight: 800;
+    color: black; }
+  main .encontranos {
+    gap: 3.125rem; }
+    main .encontranos h2 {
+      font-weight: 700;
+      color: black;
+      padding: 9px 25px;
+      background-color: #B4B4B8;
+      border: none;
+      border-radius: 50px; }
+  main .imagen-nike2 {
+    width: 100%;
+    height: 800px; }
+    main .imagen-nike2 .foto-logo-nike {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+
+.main-oportunidades {
+  width: 100%; }
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  gap: 4.375rem;
+  height: 400px; }
+  .products-container .subtitulo {
+    font-weight: 800; }
+  .products-container .container-card {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border-radius: .625rem;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px black;
+    background: white; }
+    .products-container .container-card div {
+      width: 100%;
+      height: 60%; }
+      .products-container .container-card div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .products-container .container-card button {
+      font-weight: 700;
+      padding: 9px 25px;
+      background: #f2efe5;
+      border: none;
+      border-radius: 50px; }
+      .products-container .container-card button:hover {
+        background-color: #f2efe5;
+        color: #B4B4B8;
+        transform: scale(1.1); }

@@ -1,4 +1,11 @@
-@import "./base/_reset.scss";
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
-@import "./layout/main_sumate.scss";
+@import "./utilities/variables.scss";
+
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main_sumate";
+@import "./layout/main_index";
+@import "./layout/main_eventos";
+@import "./layout/main_encontranos";
+@import "./layout/main_oportunidades";
+@import "./components/cards";
