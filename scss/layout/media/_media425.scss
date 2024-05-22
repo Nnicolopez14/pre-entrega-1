@@ -1,4 +1,4 @@
-@media(max-width:320px){
+@media(max-width:426px){
     main{
         .encontranos{
             flex-direction: column;
@@ -12,35 +12,17 @@
             flex-direction: column;
             padding: 20px;
             iframe{
-                width: 100px;
-                height: 100px;
+                width: 110px;
+                height: 110px;
             }
         }
         .encontranos2{
             flex-direction: column;
             padding: 20px;
             iframe{
-                width: 150px;
-                height: 150px;
+                width: 180px;
+                height: 180px;
             }
-        }
-    }
-    .formu{
-        flex-direction: column;
-        .form-information{
-            flex-direction: column;
-            justify-content: left;
-            width: 100%;
-            height: 300px;
-            padding: auto;
-        }
-    }
-    .imagen-sumate{
-        height: 320px;
-        width: 320px;
-        .foto-nike2{
-            height: 100%;
-            width: 100%;
         }
     }
     section{
@@ -60,6 +42,24 @@
         .video{
             width: 100%;
             height: 100%;
+        }
+    }
+    .formu{
+        flex-direction: column;
+        .form-information{
+            flex-direction: column;
+            justify-content: left;
+            width: 100%;
+            height: 300px;
+            padding: auto;
+        }
+    }
+    .imagen-sumate{
+        height: 320px;
+        width: 100%;
+        .foto-nike2{
+            height: 100%;
+            width: 100%;
         }
     }
 }

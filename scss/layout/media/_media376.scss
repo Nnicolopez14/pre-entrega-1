@@ -1,0 +1,12 @@
+@media(max-width:376px){
+    main{
+        .encontranos2{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 165px;
+                height: 165px;
+            }
+        }
+    }
+}
