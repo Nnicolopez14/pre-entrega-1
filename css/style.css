@@ -45,243 +45,11 @@
       color: #B4B4B8;
       transform: scale(1.1); }
 
-footer {
-  background-color: #B4B4B8;
-  color: black;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
-  footer .iconos {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-items: center;
-    margin: 15px 0; }
-    footer .iconos i {
-      border-radius: 50%;
-      padding: 15px;
-      cursor: pointer;
-      margin: 0 10px;
-      transition: 0.3s ease;
-      box-shadow: 0 2px 5px #B4B4B8; }
-
-.formu {
-  display: flex;
-  gap: 1.25rem;
-  align-items: center;
-  background-color: #f2efe5; }
-  .formu .container-form {
-    height: 28.125rem;
-    max-width: 50rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1.25rem;
-    box-shadow: #b4b4b8;
-    transition: all ease;
-    margin: .625rem;
-    align-items: center;
-    justify-content: center; }
-    .formu .container-form .information {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      background-color: #e3e1d9;
-      border-radius: 1.25rem; }
-      .formu .container-form .information .info {
-        width: 100%;
-        padding: 0 1.875rem; }
-        .formu .container-form .information .info h1 {
-          font-size: 1.8rem;
-          color: black; }
-        .formu .container-form .information .info p {
-          margin: 15px 0;
-          color: black;
-          font-size: 1.8rem; }
-        .formu .container-form .information .info input {
-          background-color: #e3e1d9;
-          outline: none;
-          border: solid 2px #b4b4b8;
-          border-radius: 20px;
-          padding: 8px 2px;
-          color: black;
-          cursor: pointer;
-          transition: .03s ease;
-          text-align: center; }
-          .formu .container-form .information .info input:hover {
-            background-color: #f2efe5;
-            border: none;
-            color: black;
-            box-shadow: 0 2px 5px #b4b4b8; }
-  .formu .form-information {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    text-align: center;
-    background-color: #f2efe5;
-    border-top-right-radius: 1.25rem;
-    border-bottom-left-radius: 1.25rem; }
-    .formu .form-information .form-inf {
-      padding: 0 30px; }
-      .formu .form-information .form-inf .icon {
-        margin: .9375rem 0; }
-        .formu .form-information .form-inf .icon i {
-          border-radius: 50%;
-          padding: .9375rem;
-          cursor: pointer;
-          margin: 0 .625rem;
-          transition: 0.3s ease;
-          box-shadow: 0 2px 5px #b4b4b8; }
-          .formu .form-information .form-inf .icon i:hover {
-            background-color: #b4b4b8;
-            color: #e3e1d9; }
-    .formu .form-information .form {
-      margin: 30px 0 0 0; }
-      .formu .form-information .form label {
-        display: flex;
-        align-items: center;
-        margin-bottom: 15px;
-        border-radius: 20px;
-        padding: 0 10px;
-        box-shadow: 0 2px 5px #b4b4b8;
-        background-color: #e3e1d9; }
-        .formu .form-information .form label input {
-          width: 100%;
-          padding: 10px;
-          background-color: #fff;
-          border: none;
-          outline: none;
-          border-radius: 20px;
-          color: #555555; }
-        .formu .form-information .form label i {
-          color: #d6c3c3; }
-      .formu .form-information .form input[type="submit"] {
-        background-color: #555555;
-        color: #b4b4b8;
-        border-radius: 1.25rem;
-        border: none;
-        padding: 12px 15px;
-        cursor: pointer;
-        margin: 1px;
-        box-shadow: 0 2px 5px #555555; }
-  .formu .contenido-info {
-    width: 100%;
-    text-align: center;
-    align-items: center; }
-    .formu .contenido-info h3 {
-      font-size: 40px;
-      color: black; }
-    .formu .contenido-info h4 {
-      margin: 15px 0;
-      color: black;
-      font-size: 25px; }
-    .formu .contenido-info p {
-      margin: 15px 0;
-      color: black;
-      font-size: 16px; }
-  .formu .imagen-sumate {
-    width: 800px;
-    height: 800px; }
-    .formu .imagen-sumate .foto-nike2 {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; }
-
-.main-index {
-  background-color: #f2efe5; }
-  .main-index hr {
-    height: 20px;
-    background-color: #f2efe5; }
-  .main-index .section-dos h3 {
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .main-index .section-dos .galeria {
-    display: grid;
-    width: 80%;
-    margin: auto;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 15.625rem);
-    gap: .625rem; }
-    .main-index .section-dos .galeria img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      background-color: #B4B4B8; }
-    .main-index .section-dos .galeria .img1 {
-      grid-column-start: 1;
-      grid-column-end: 3;
-      grid-row-start: 1;
-      grid-row-end: 3; }
-    .main-index .section-dos .galeria .img2 {
-      grid-column-start: 3;
-      grid-column-end: 5;
-      grid-row-start: 2;
-      grid-row-end: 4; }
-    .main-index .section-dos .galeria .img3 {
-      grid-column-start: 4;
-      grid-column-end: 5;
-      grid-row-start: 1;
-      grid-row-end: 2; }
-    .main-index .section-dos .galeria .img4 {
-      grid-column-start: 2;
-      grid-column-end: 3;
-      grid-row-start: 3;
-      grid-row-end: 4; }
-    .main-index .section-dos .galeria .img5 {
-      grid-column-start: 1;
-      grid-column-end: 2;
-      grid-row-start: 3;
-      grid-row-end: 4; }
-    .main-index .section-dos .galeria .img6 {
-      grid-column-start: 3;
-      grid-column-end: 4;
-      grid-row-start: 1;
-      grid-row-end: 2; }
-
-main section {
-  width: 100%;
-  height: 800px; }
-  main section .foto-nike {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
-
-main .video-youtube {
-  width: 100%;
-  height: 500px; }
-  main .video-youtube .video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
-
 main {
-  background-color: #f2efe5; }
-  main h1 {
-    font-weight: 800;
-    color: black; }
-  main .encontranos {
-    gap: 3.125rem; }
-    main .encontranos h2 {
-      font-weight: 700;
-      color: black;
-      padding: 9px 25px;
-      background-color: #B4B4B8;
-      border: none;
-      border-radius: 50px; }
-  main .imagen-nike2 {
-    width: 100%;
-    height: 800px; }
-    main .imagen-nike2 .foto-logo-nike {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; }
+  background-color: #c7c8cc; }
 
-.main-oportunidades {
-  width: 100%; }
+.subtitulo {
+  font-weight: 800; }
 
 .products-container {
   display: flex;
@@ -292,7 +60,7 @@ main {
     font-weight: 800; }
   .products-container .container-card {
     width: 300px;
-    height: 350px;
+    height: 400px;
     text-align: center;
     border-radius: .625rem;
     overflow: hidden;
@@ -315,3 +83,264 @@ main {
         background-color: #f2efe5;
         color: #B4B4B8;
         transform: scale(1.1); }
+
+hr {
+  height: 20px;
+  background-color: #f2efe5; }
+
+.section-dos h3 {
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.section-dos .galeria {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 15.625rem);
+  gap: .625rem; }
+  .section-dos .galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #B4B4B8; }
+  .section-dos .galeria .img1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; }
+  .section-dos .galeria .img2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4; }
+  .section-dos .galeria .img3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .section-dos .galeria .img4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+  .section-dos .galeria .img5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+  .section-dos .galeria .img6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+
+footer {
+  background-color: #f2efe5;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center; }
+  footer .iconos {
+    margin: 15px 0; }
+    footer .iconos i {
+      border-radius: 50%;
+      padding: 15px;
+      cursor: pointer;
+      margin: 0 10px;
+      transition: 0.3s ease;
+      box-shadow: 0 2px 5px #B4B4B8; }
+
+.formu {
+  display: flex;
+  flex-direction: row; }
+  .formu .container-form {
+    height: 450px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: #B4B4B8;
+    transition: all ease;
+    margin: 10px;
+    align-items: center;
+    justify-content: center; }
+    .formu .container-form .information {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background-color: #E3E1D9;
+      border-radius: 1.25rem; }
+      .formu .container-form .information .info {
+        width: 100%;
+        padding: 0 30px; }
+        .formu .container-form .information .info h1 {
+          font-size: 1.8rem;
+          color: black; }
+        .formu .container-form .information .info p {
+          margin: 15px 0;
+          color: black;
+          font-size: 1.8rem; }
+        .formu .container-form .information .info input {
+          background-color: #E3E1D9;
+          outline: none;
+          border: solid 2px #B4B4B8;
+          border-radius: 20px;
+          padding: 8px 2px;
+          color: black;
+          cursor: pointer;
+          transition: .03s ease;
+          text-align: center; }
+          .formu .container-form .information .info input:hover {
+            background-color: #f2efe5;
+            border: none;
+            color: black;
+            box-shadow: 0 2px 5px #B4B4B8; }
+  .formu .form-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    background-color: #E3E1D9;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; }
+    .formu .form-information .form-inf {
+      padding: 0 30px; }
+      .formu .form-information .form-inf .icon {
+        margin: 15px 0; }
+        .formu .form-information .form-inf .icon i {
+          border-radius: 50%;
+          padding: 15px;
+          cursor: pointer;
+          margin: 0 10px;
+          transition: 0.3s ease;
+          box-shadow: 0 2px 5px #B4B4B8; }
+          .formu .form-information .form-inf .icon i:hover {
+            background-color: #B4B4B8;
+            color: #E3E1D9; }
+    .formu .form-information .form {
+      margin: 30px 0 0 0; }
+      .formu .form-information .form label {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        border-radius: 20px;
+        padding: 0 10px;
+        box-shadow: 0 2px 5px #B4B4B8;
+        background-color: #E3E1D9; }
+        .formu .form-information .form label input {
+          width: 100%;
+          padding: 10px;
+          background-color: #fff;
+          border: none;
+          outline: none;
+          border-radius: 20px;
+          color: #555555; }
+        .formu .form-information .form label i {
+          color: #E3E1D9; }
+      .formu .form-information .form input[type="submit"] {
+        background-color: #555555;
+        color: #B4B4B8;
+        border-radius: 20px;
+        border: none;
+        padding: 12px 15px;
+        cursor: pointer;
+        margin: 1px;
+        box-shadow: 0 2px 5px #555555; }
+  .formu .contenido-info {
+    width: 100%;
+    text-align: center;
+    align-items: center; }
+    .formu .contenido-info h3 {
+      font-size: 40px;
+      color: black; }
+    .formu .contenido-info h4 {
+      margin: 15px 0;
+      color: black;
+      font-size: 25px; }
+    .formu .contenido-info p {
+      margin: 15px 0;
+      color: black;
+      font-size: 16px; }
+
+.imagen-sumate {
+  height: 800px;
+  width: 800px; }
+  .imagen-sumate .foto-nike2 {
+    height: 100%;
+    width: 100%; }
+
+section {
+  height: 400px;
+  width: 100%; }
+  section .foto-nike {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
+.video-youtube {
+  display: flex;
+  width: 100%;
+  height: 400px; }
+  .video-youtube .video {
+    width: 100%;
+    height: 100%; }
+
+main h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+main .encontranos {
+  font-weight: 700;
+  color: black;
+  padding: 9px 25px;
+  background: #B4B4B8;
+  border: none;
+  border-radius: 50px;
+  height: 500px; }
+  main .encontranos iframe {
+    width: 200px;
+    height: 200px; }
+
+main .encontranos1 {
+  font-weight: 700;
+  color: black;
+  padding: 9px 25px;
+  background: #B4B4B8;
+  border: none;
+  border-radius: 50px;
+  height: 300px; }
+  main .encontranos1 iframe {
+    width: 200px;
+    height: 200px; }
+
+main .encontranos2 {
+  font-weight: 700;
+  color: black;
+  padding: 9px 25px;
+  background: #B4B4B8;
+  border: none;
+  border-radius: 50px;
+  height: 1000px; }
+  main .encontranos2 iframe {
+    width: 200px;
+    height: 200px; }
+
+main section {
+  width: 100%;
+  height: 600px; }
+  main section .foto-logo-nike {
+    width: 100%;
+    height: 100%; }

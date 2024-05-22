@@ -2,7 +2,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 1rem;
-    background-color: #B4B4B8;
+    background-color: $color-principal;
     .logo img{
         height: 3.125rem;
         width: 9.375rem;
@@ -47,6 +47,4 @@
             transform: scale(1.1);
         }
     }
-
 }
-

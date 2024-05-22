@@ -1,18 +1,16 @@
 .formu{
     display: flex;
-    gap: 1.25rem;
-    align-items: center;
-    background-color: #f2efe5;
+    flex-direction: row;
     .container-form{
-        height: 28.125rem;
-        max-width: 50rem;
+        height: 450px;
+        max-width: 800px;
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 1.25rem;
-        box-shadow: #b4b4b8;
+        border-radius: 20px;
+        box-shadow: $color-principal;
         transition: all ease;
-        margin: .625rem;
+        margin: 10px;
         align-items: center;
         justify-content: center;
         .information{
@@ -20,35 +18,35 @@
             display: flex;
             align-items: center;
             text-align: center;
-            background-color: #e3e1d9;
+            background-color: $color-cuarto;
             border-radius: 1.25rem;
             .info{
                 width: 100%;
-                padding: 0 1.875rem;
+                padding: 0 30px;
                 h1{
                     font-size: 1.8rem;
-                    color: black;
+                    color: $color-letra;
                 }
                 p{
                     margin: 15px 0;
-                    color: black;
+                    color: $color-letra;
                     font-size: 1.8rem;
                 }
                 input{
-                    background-color: #e3e1d9;
+                    background-color: $color-cuarto;
                     outline: none;
-                    border: solid 2px #b4b4b8;
+                    border: solid 2px $color-principal;
                     border-radius: 20px;
                     padding: 8px 2px;
-                    color: black;
+                    color: $color-letra;
                     cursor: pointer;
                     transition: .03s ease;
                     text-align: center;
                     &:hover{
-                        background-color: #f2efe5;
+                        background-color: $color-secundario;
                         border: none;
-                        color: black;
-                        box-shadow: 0 2px 5px #b4b4b8;
+                        color: $color-letra;
+                        box-shadow: 0 2px 5px $color-principal;
                     }
                 }
             }
@@ -58,25 +56,26 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 60%;
+        width: 800px;
+        height: 800px;
         text-align: center;
-        background-color: #f2efe5;
-        border-top-right-radius: 1.25rem;
-        border-bottom-left-radius: 1.25rem;
+        background-color: $color-cuarto;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
         .form-inf{
             padding: 0 30px;
             .icon{
-                margin: .9375rem 0;
+                margin: 15px 0;
                 i{
                     border-radius: 50%;
-                    padding: .9375rem;
+                    padding: 15px;
                     cursor: pointer;
-                    margin: 0 .625rem;
-                    transition: 0.3s ease;
-                    box-shadow: 0 2px 5px #b4b4b8;
+                    margin: 0 10px;
+                    transition:  0.3s ease;
+                    box-shadow: 0 2px 5px $color-principal;
                     &:hover{
-                        background-color: #b4b4b8;
-                        color: #e3e1d9;
+                        background-color: $color-principal;
+                        color: $color-cuarto;
                     }
                 }
             }
@@ -89,8 +88,8 @@
                 margin-bottom: 15px;
                 border-radius: 20px;
                 padding: 0 10px;
-                box-shadow: 0 2px 5px #b4b4b8;
-                background-color: #e3e1d9;
+                box-shadow: 0 2px 5px $color-principal;
+                background-color: $color-cuarto;
                 input{
                     width: 100%;
                     padding: 10px;
@@ -101,20 +100,19 @@
                     color: #555555;
                 }
                 i{
-                    color: #d6c3c3;
+                    color: $color-cuarto;
                 }
             }
             input[type="submit"]{
                 background-color: #555555;
-                color: #b4b4b8;
-                border-radius: 1.25rem;
+                color: $color-principal;
+                border-radius: 20px;
                 border: none;
                 padding: 12px 15px;
                 cursor: pointer;
                 margin: 1px;
                 box-shadow: 0 2px 5px #555555;
             }
-
         }
     }
     .contenido-info{
@@ -123,27 +121,17 @@
         align-items: center;
         h3{
             font-size: 40px;
-            color: black;
+            color: $color-letra;
         }
         h4{
             margin: 15px 0;
-            color: black;
+            color: $color-letra;
             font-size: 25px;
         }
         p{
             margin: 15px 0;
-            color: black;
+            color: $color-letra;
             font-size: 16px;
         }
     }
-    .imagen-sumate{
-        width: 800px;
-        height: 800px;
-        .foto-nike2{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-    
 }
