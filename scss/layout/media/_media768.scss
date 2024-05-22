@@ -1,0 +1,53 @@
+@media(max-width:768px){
+    .header{
+        nav{
+            .menu{
+                width: 100%;
+                height: 0;
+                overflow: hidden;
+            }
+            .navbar{
+                flex-direction: column;
+                align-items: center;
+                padding: 0.5rem 0;
+            }
+            label{
+                display: inline-flex;
+                color: $color-letra;
+            }
+            #toggle:checked ~.menu{
+                height: 100%;
+            }
+        }
+    }
+    main{
+        .encontranos{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .encontranos1{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .encontranos2{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+    .formu{
+        flex-direction: column;
+    }
+    
+}
